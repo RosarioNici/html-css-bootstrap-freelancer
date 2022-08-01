@@ -13,6 +13,7 @@
 .star-bar {
     width: 10%;
     height: 4px;
+    border-radius: 4px;
     background-color: white;
 
 }
@@ -20,11 +21,38 @@
 .star-bar-black {
     width: 10%;
     height: 4px;
-    background-color: black;
+    border-radius: 4px;
+    background-color: #2d3e50;
+}
 
+.star-dark {
+    color: #2d3e50;
 }
 
 .rn-bg-color-jumbo {
     color: white;
     background-color: #1abc9c;
 }
+
+/* about part */
+.about {
+    width: calc(90%/2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#download {
+    height: 40px;
+    width: 120px;
+    padding: 5px;
+    color: white;
+    background-color: rgba(240, 255, 255, 0);
+    border: white 1px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* /about part */
