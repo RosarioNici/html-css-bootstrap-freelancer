@@ -13,5 +13,18 @@
 .star-bar {
     width: 10%;
     height: 4px;
+    background-color: white;
+
+}
+
+.star-bar-black {
+    width: 10%;
+    height: 4px;
     background-color: black;
+
+}
+
+.rn-bg-color-jumbo {
+    color: white;
+    background-color: #1abc9c;
 }
