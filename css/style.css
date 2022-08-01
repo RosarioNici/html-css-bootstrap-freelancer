@@ -1,0 +1,17 @@
+/* header */
+.rn-bg-color-header {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* main */
+.user {
+    width: 30%;
+    height: 30%;
+}
+
+.star-bar {
+    width: 10%;
+    height: 4px;
+    background-color: black;
+}
