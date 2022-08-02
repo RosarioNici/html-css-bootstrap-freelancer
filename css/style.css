@@ -4,6 +4,26 @@
     color: white;
 }
 
+.menu {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width:960px) {
+    .menu {
+        display: inherit;
+
+    }
+
+    .ham-menu {
+        display: none;
+    }
+}
+
 /* main */
 .user {
     width: 30%;
@@ -34,15 +54,32 @@
     background-color: #1abc9c;
 }
 
+.subtitle:hover {
+    color: rgb(37, 37, 100);
+}
+
 /* about part */
 .about {
     width: calc(90%/2);
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
 }
+
+.about-you {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+
+
+/* button */
 
 #download {
     height: 40px;
@@ -53,6 +90,37 @@
     border: white 1px solid;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+#send {
+    width: 70px;
+    height: 45px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    background-color: #1abc9c;
+}
+
+textarea {
+    width: 100%;
+}
+
+/* footer */
+.social {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    padding: 10px 15px;
+
+}
+
+.rn-bg-color-social {
+    background-color: #3a546d;
+}
+
+.rn-bg-color-footer {
+    background-color: #2c3e50;
+    color: white;
 }
 
 /* /about part */
